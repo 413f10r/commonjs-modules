@@ -4,10 +4,10 @@
 2. Esporta la funzione dal file.
 */
 
-function createNames(firstName, lastName ){
+function newNames(firstName, lastName) {
     return {
         firstName,
         lastName
     }
 }
-export default createNames
+export default newNames

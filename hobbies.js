@@ -4,8 +4,8 @@
 2. Esporta la funzione dal file.
 */
 
-function createHobbie (hobbieOne,hobbieTwo,hobbieThree ) {
+function newHobbie (hobbieOne,hobbieTwo,hobbieThree ) {
     return [ hobbieOne, hobbieTwo,hobbieThree ]
 }
 
-export default createHobbie
+export default newHobbie 

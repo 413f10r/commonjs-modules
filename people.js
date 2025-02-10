@@ -9,14 +9,14 @@ All'interno della tua funzione, usa le tue due funzioni precedenti
 per costruire l'oggetto.
 */
 
-import createHobbie from './hobbie.js';
-import createNames from './names.js';
+import newHobbie from './hobbie.js';
+import newNames from './names.js';
 
-const fullName = createNames('Mario', 'Rossi');
-const hobbies = createHobbie('Calcio', 'Lettura', 'Viaggi');
+const fullName = newNames('Leo', 'Messi');
+const hobbies = newHobbie('Calcio', 'Futsal', 'FantaCalcio');
 
 
-function createPerson() {
+function newPeople() {
 
     return {
         fullName,
@@ -24,7 +24,7 @@ function createPerson() {
     };
 }
 
-console.log(createPerson());
+console.log(newPeople());
 
 
 
