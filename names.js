@@ -1,11 +1,13 @@
 /*
-2 - hobbies.js
-1. Crea una funzione che accetta tre parametri: hobbyOne, hobbyTwo, hobbyThree. La funzione dovrebbe restituire  un array di stringhe contenenti gli hobby.
+1 - names.js
+1. Crea una funzione che accetta due parametri: firstName, lastName. La funzione dovrebbe restituire un oggetto con le proprietà firstName e lastName.
 2. Esporta la funzione dal file.
 */
 
-function createHobbie (hobbieOne,hobbieTwo,hobbieThree ) {
-    return [ hobbieOne, hobbieTwo,hobbieThree ]
+function createNames(firstName, lastName ){
+    return {
+        firstName,
+        lastName
+    }
 }
-
-export default createHobbie
+export default createNames
